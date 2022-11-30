@@ -12,11 +12,18 @@ export const providerOptions = {
   },
   ledger: {
     package: loadConnectKit,
+    opts: {
+      chainId: 1,
+      rpc: {
+        1: `https://cloudflare-eth.com/`, // Mainnet
+        137: "https://polygon-rpc.com/", // Polygon
+      }
+    }
   },
   walletconnect: {
     package: WalletConnect, // required
     options: {
-      infuraId: process.env.INFURA_KEY // required
+      infuraId: 'f842106543f34c899db96ff70926f751' // required
     }
   }
 };

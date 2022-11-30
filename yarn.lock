@@ -2717,6 +2717,11 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
+"@ledgerhq/connect-kit-loader@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@ledgerhq/connect-kit-loader/-/connect-kit-loader-1.0.0.tgz#94e846537adbec6e19546583626b35b9d508cc0b"
+  integrity sha512-TQnVSwg8WKUx5WUQtGKJurFpnpeaVHmJfKdElVMBgccfHska6+4XA+554NjHQ46GvI/V0wknFShnudTRqc5JXg==
+
 "@metamask/safe-event-emitter@^2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@metamask/safe-event-emitter/-/safe-event-emitter-2.0.0.tgz#af577b477c683fad17c619a78208cede06f9605c"
@@ -14043,10 +14048,10 @@ web3-provider-engine@16.0.1:
     xhr "^2.2.0"
     xtend "^4.0.1"
 
-web3modal@1.9.5:
-  version "1.9.5"
-  resolved "https://registry.yarnpkg.com/web3modal/-/web3modal-1.9.5.tgz#a1d6351a11358b376af5772f79f3dcdba6c38d1b"
-  integrity sha512-L5ME6zgoaCDa+T66skW9WpxGOJX6vU9v+7aLacoQJhU3AMTk784ionpX+Pg4UdhdM+UQW+odge32GkwEX11czQ==
+web3modal@^1.9.10:
+  version "1.9.10"
+  resolved "https://registry.yarnpkg.com/web3modal/-/web3modal-1.9.10.tgz#ab7836ff27c6a16b9ca881ba0e8008bd33cb0dff"
+  integrity sha512-gRByp+toRiADwkJLLGRXsnIVbLS1aJB71sJyryS6C7cF6jJ3cRN1LbPYEMObMyJkyjOZonx0CNZVAYGiD099aA==
   dependencies:
     detect-browser "^5.1.0"
     prop-types "^15.7.2"
